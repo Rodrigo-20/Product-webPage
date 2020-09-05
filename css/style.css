@@ -1,0 +1,110 @@
+* {
+ box-sizing: border-box;
+}
+
+body {
+ margin: 0;
+ padding: 0;
+ position: relative;
+}
+
+a {
+ text-decoration: none;
+ color: #000;
+}
+
+#nav-bar{
+ width: 100%;
+ background: #dee2e4;
+ position: fixed;
+ top:0px;
+ padding: .5rem 4rem;
+ display: flex;
+ justify-content: space-between;
+}
+
+#nav-bar ul {
+ display: flex;
+}
+#nav-bar img {
+ width: 200px;
+}
+
+#nav-bar ul li{
+ list-style-type: none;
+ padding: .5rem 1rem;
+ transition: all .5s ease-in-out;
+}
+
+#nav-bar ul li:hover{
+ background: rgb(20, 19, 19);
+ color: #fff;
+}
+
+#nav-bar ul li:hover a{
+ color: #fff;
+}
+
+#form-section {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+ height: 500px;
+}
+
+#form {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+#form #email {
+ width: 300px;
+ padding: .5rem .2rem;
+}
+
+#form #submit {
+ background: #a17624;
+ padding: .5rem 2rem;
+ color: #fff;
+ border: 0;
+ font-size: 1.2rem;
+ margin: 1rem 0;
+ border-radius:5px;
+}
+
+
+#how-it-works {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+#features {
+ width: 60%;
+ margin: 0 auto;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ padding-bottom: 4rem;
+}
+
+#features .item {
+ width: 100%;
+ display: flex;
+ align-items: center;
+}
+
+#features .item .icon{
+ font-size: 2rem;
+ margin-right: 2rem;
+}
+
+@media only screen and (min-width:768px ){
+
+
+}
