@@ -1,0 +1,9 @@
+#nav-bar{
+    display: flex;
+    position: fixed;
+    top:0px;
+}
+@media only screen and (min-width:768px ){
+
+
+}
