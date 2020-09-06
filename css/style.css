@@ -21,6 +21,7 @@ a {
  padding: .5rem 4rem;
  display: flex;
  justify-content: space-between;
+ align-items: center;
 }
 
 #nav-bar ul {
@@ -28,6 +29,7 @@ a {
 }
 #nav-bar img {
  width: 200px;
+ height: 50px;
 }
 
 #nav-bar ul li{
@@ -102,6 +104,35 @@ a {
 #features .item .icon{
  font-size: 2rem;
  margin-right: 2rem;
+}
+#pricing{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 70%;
+    margin: 0 auto;
+    grid-gap: 20px;
+    padding:4rem 0rem; 
+}
+.product{
+    text-align: center;
+    border:1px solid rgb(139, 139, 21);
+    
+}
+.instrument{
+    margin-top:0px;
+    font-size:15px;
+    background-color:gray;
+    padding:10px 0px;
+}
+.product button{
+    padding: 5px 15px;
+    background-color: yellow;
+    border:2px solid black;
+    border-radius: 5px;
+}
+footer p{
+    display: inline-block;
+    margin:10px 15px;
 }
 
 @media only screen and (min-width:768px ){
