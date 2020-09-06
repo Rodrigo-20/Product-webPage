@@ -117,6 +117,7 @@ a {
 .product{
     text-align: center;
     border:1px solid rgb(139, 139, 21);
+    padding-bottom: 2rem;
     
 }
 .instrument{
